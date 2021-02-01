@@ -5,6 +5,7 @@ import ListeProduct from "./Components/ListeProduct";
 import Product from "./Components/Product";
 import Apropos from "./Components/Apropos";
 import ContactForm from "./Components/ContactForm";
+import Footer from "./Components/Footer";
 import axios from "axios";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";

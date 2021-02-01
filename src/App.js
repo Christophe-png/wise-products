@@ -36,7 +36,7 @@ class App extends Component {
   render() {
     const { products, collectionFilter } = this.state;
     const filteredProducts =
-      collectionFilter === ""
+      collectionFilter === " "
         ? products
         : products.filter((product) => product.collection === collectionFilter);
     return (
@@ -71,6 +71,7 @@ class App extends Component {
             <Route path="/contact-form" component={ContactForm} />
             <HomePage />
           </Switch>
+          <ListeProduct products={filteredProducts} />
           <Footer className="footer"></Footer>
         </Router>
       </div>

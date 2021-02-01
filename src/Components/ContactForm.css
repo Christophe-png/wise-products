@@ -2,16 +2,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f8df0b;
+  background-color: #ace4ee;
 }
 
 .contactform-container {
   width: 40%;
-  background-color: #efaf39;
+  background-color: #06647c;
   padding: 1.25em;
   margin-bottom: 50px;
   border-radius: 5px;
-  box-shadow: 5px 5px 5px #cc7000;
+  box-shadow: 5px 5px 5px #090a69;
   font-size: 1.2em;
 }
 

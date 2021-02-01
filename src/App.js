@@ -61,12 +61,9 @@ class App extends Component {
             </label>
           </div>
           <Switch>
-            <Route exact path="/">
-              <ListeProduct products={products} />
-            </Route>
-            <Route path="/product">
-              <ListeProduct products={products} />
-            </Route>
+            <Route exact path="/" component={HomePage} />
+            <Route path="/listeproduct" component={ListeProduct} />
+            <Route path="/product" component={Product} />
             <Route path="a-propos" component={Apropos} />
             <Route path="/contact-form" component={ContactForm} />
             <HomePage />

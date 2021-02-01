@@ -1,0 +1,103 @@
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8df0b;
+}
+
+.contactform-container {
+  width: 40%;
+  background-color: #efaf39;
+  padding: 1.25em;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #cc7000;
+  font-size: 1.2em;
+}
+
+.contactform-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform-title {
+  padding-bottom: 20px;
+  /*color: greenyellow;*/
+  text-transform: uppercase;
+}
+
+.form-control {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.ContactForm input {
+  height: 45px;
+}
+
+.ContactForm textarea {
+  height: 150px;
+}
+
+.ContactForm input::placeholder,
+textarea::placeholder {
+  color: black;
+}
+
+.searchButton-form {
+  align-self: flex-end;
+  width: 100px;
+  box-shadow: inset 0px 1px 0px 0px #f8df0b;
+  background: linear-gradient(to bottom, #f8df0b 5%, #efaf39 100%);
+  background-color: #cc7000;
+  border-radius: 6px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-shadow: Opx 1px 0px #b23e35;
+}
+
+.searchButton-form:hover {
+  background: linear-gradient(to bottom, #f8df0b, black 100%);
+  background-color: black;
+}
+
+.searchButton-form:active {
+  position: relative;
+  top: 1px;
+}
+
+/*******************************
+***********VERSION MOBILE*******
+********************************/
+
+@media only screen and (max-width: 376px) {
+  .contactform-container {
+    padding: 10px 70px;
+  }
+  .contactform-container input,
+  textarea {
+    text-align: left;
+  }
+
+  .ContactForm label {
+    margin: 0 -40px;
+  }
+
+  .searchButton-form {
+    margin: 10px;
+    align-self: center;
+  }
+}

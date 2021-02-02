@@ -1,4 +1,4 @@
-.header {
+.navbar {
   display: flex;
   position: relative;
   align-items: left;
@@ -7,7 +7,7 @@
   margin-bottom: 4rem;
 }
 
-.logo {
+.navbar-logo {
   max-width: 30%;
   justify-content: center;
 }

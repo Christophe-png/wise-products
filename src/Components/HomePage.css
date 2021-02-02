@@ -1,3 +1,8 @@
-.welcome {
+.home-page {
+  width: 70%;
   background-image: url("https://presselib.com/wp-content/uploads/2020/03/WISE-13.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: initial;
+  padding: 300px;
 }

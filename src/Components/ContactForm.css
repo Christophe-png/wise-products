@@ -32,7 +32,7 @@
   border: none;
   outline: none;
   border-bottom: 1px solid black;
-  color: black;
+  color: white;
   font-size: 18px;
   margin-bottom: 16px;
 }
@@ -47,15 +47,15 @@
 
 .ContactForm input::placeholder,
 textarea::placeholder {
-  color: black;
+  color: white;
 }
 
 .searchButton-form {
   align-self: flex-end;
   width: 100px;
-  box-shadow: inset 0px 1px 0px 0px #f8df0b;
-  background: linear-gradient(to bottom, #f8df0b 5%, #efaf39 100%);
-  background-color: #cc7000;
+  box-shadow: inset 0px 1px 0px 0px white;
+  background: linear-gradient(to bottom, rgb(164, 184, 238) 5%, white 100%);
+  background-color: #3634b8;
   border-radius: 6px;
   border: none;
   display: inline-block;
@@ -70,7 +70,7 @@ textarea::placeholder {
 }
 
 .searchButton-form:hover {
-  background: linear-gradient(to bottom, #f8df0b, black 100%);
+  background: linear-gradient(to bottom, #445ef0, rgb(143, 215, 236) 100%);
   background-color: black;
 }
 

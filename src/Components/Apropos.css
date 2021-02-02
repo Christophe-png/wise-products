@@ -1,5 +1,5 @@
 .apropos {
-  background-color: #ace4ee;
+  background-color: white;
   color: black;
   width: 1600px;
   margin: 0 auto;
@@ -7,9 +7,34 @@
   border: 5px solid black;
 }
 
+.histoire {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.recit-histoire {
+  grid-column: 1 / 2;
+  grid-row: 2;
+  width: 500px;
+  height: 500px;
+  background-position: left;
+  font-size: x-large;
+}
+.photoDuo {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+  background-position: right;
+  width: 100px;
+  height: 500px;
+  padding-top: 200px;
+}
+
 img {
   display: block;
   margin: 0 auto;
+  width: 500px;
 }
 
 h1 {

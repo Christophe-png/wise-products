@@ -4,7 +4,7 @@ import "./Apropos.css";
 function Apropos() {
   return (
     <div className="apropos">
-      <section className="manifeste">
+      <div className="manifeste">
         <h1>Manifeste</h1>
         <h2>Dawa Sherpa: Ambassadeur Wise</h2>
         <iframe
@@ -23,8 +23,8 @@ function Apropos() {
           occupe. - Nous avons tous en nous le potentiel de rendre les choses
           meilleures où qu'on aille.
         </p>
-      </section>
-      <section className="histoire">
+      </div>
+      <div className="histoire">
         <h1>Histoire</h1>
         <h2>La seule empreinte que tu laisses, c'est celle de tes pas !"</h2>
         <iframe
@@ -53,7 +53,7 @@ function Apropos() {
             alt="photo fondateurs Wise"
           />
         </div>
-      </section>
+      </div>
       <section className="savoir-faire">
         <h1>Made in France</h1>
         <h2>Rencontre avec Bernard De Buhren</h2>

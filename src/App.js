@@ -64,7 +64,7 @@ class App extends Component {
             <Route exact path="/" component={HomePage} />
             <Route path="/listeproduct" component={ListeProduct} />
             <Route path="/product" component={Product} />
-            <Route path="a-propos" component={Apropos} />
+            <Route path="/a-propos" component={Apropos} />
             <Route path="/contact-form" component={ContactForm} />
             <HomePage />
           </Switch>

@@ -12,6 +12,10 @@ function Product(props) {
       ></div>
       <p>{collection}</p>
       <p>{price}</p>
+      <p>
+        Je souhaite passer commande:
+        <a href="https://www.wisetrailrunning.com/"> Wise Trail Running</a>
+      </p>
     </div>
   );
 }

@@ -67,8 +67,8 @@ class App extends Component {
             <Route path="/a-propos" component={Apropos} />
             <Route path="/contact-form" component={ContactForm} />
             <HomePage />
+            <ListeProduct products={filteredProducts} />
           </Switch>
-          <ListeProduct products={filteredProducts} />
           <Footer className="footer"></Footer>
         </Router>
       </div>

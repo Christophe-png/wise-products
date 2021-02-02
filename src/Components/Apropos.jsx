@@ -4,7 +4,7 @@ import "./Apropos.css";
 function Apropos() {
   return (
     <div className="apropos">
-      <div className="manifeste">
+      <section className="manifeste">
         <h1>Manifeste</h1>
         <h2>Dawa Sherpa: Ambassadeur Wise</h2>
         <iframe
@@ -23,8 +23,8 @@ function Apropos() {
           occupe. - Nous avons tous en nous le potentiel de rendre les choses
           meilleures où qu'on aille.
         </p>
-      </div>
-      <div className="histoire">
+      </section>
+      <section className="histoire">
         <h1>Histoire</h1>
         <h2>La seule empreinte que tu laisses, c'est celle de tes pas !"</h2>
         <iframe
@@ -53,7 +53,31 @@ function Apropos() {
             alt="photo fondateurs Wise"
           />
         </div>
-      </div>
+      </section>
+      <section className="savoir-faire">
+        <h1>Made in France</h1>
+        <h2>Rencontre avec Bernard De Buhren</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/QJpZAGKQnSE"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <h3>Des tissus français</h3>
+        <p>
+          C'est au beau milieu de l'Ardèche, en 1839, que notre filature et
+          tisseur fut créé ! Rare tisserand encore présent en France, c'est
+          grâce à leur proximité que nous pouvons sortir un short ou une jupe
+          avec seulement 240 km au compteur. Pour ceux qui ont déjà pu constater
+          la qualité, la finesse et la légèreté des tissus de nos bas, sachez
+          que derrière cela se cache une technique unique au monde : la chaîne
+          et trame bi-extensible. Un must pour la pratique du sport ! C'est
+          grâce à ce savoir faire unique qu'ils ont pu résister aux vagues de
+          délocalisation !
+        </p>
+      </section>
     </div>
   );
 }

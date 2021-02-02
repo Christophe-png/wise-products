@@ -7,7 +7,7 @@ function Header() {
     <div className="header">
       <img
         className="logo"
-        src="https://cdn.shopify.com/s/files/1/0266/5526/0732/files/Logo_pour_Facebook_lien_site_600x600.png?v=1580466220"
+        src="https://cdn.shopify.com/s/files/1/0266/5526/0732/files/Logo_horizontale_400x250_rogne_3_410x.jpg?v=1585217297"
         alt="logo Wise Trail running"
       />
 

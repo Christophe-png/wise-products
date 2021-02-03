@@ -60,11 +60,9 @@ class App extends Component {
               </select>
             </label>
           </div>
-          <Route exact path="/">
-            <HomePage />
-          </Route>
           <Switch>
             {/* <Route path="/home-page" component={HomePage} /> */}
+            <Route exact path="/" component={HomePage} />
             <Route path="/listeproduct" component={ListeProduct} />
             <Route path="/product">
               <ListeProduct products={filteredProducts} />

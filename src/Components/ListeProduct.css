@@ -1,6 +1,8 @@
 .ListeProduct {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-end;
   background-color: #ace4ee;
+  margin-left: 50px;
+  margin-right: 50px;
 }

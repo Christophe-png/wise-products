@@ -14,16 +14,25 @@ function Footer() {
     <div className="social-container">
       <h3 className="social-follow">Réseaux sociaux</h3>
       <div className="social-icons">
-        <a href="https://www.youtube.com" className="youtube social">
+        <a
+          href="https://www.youtube.com/channel/UCwa0xV8u1mKjcHJ3MBH6xig"
+          className="youtube social"
+        >
           <FontAwesomeIcon icon={faYoutube} size="2x" />
         </a>
-        <a href="https://www.facebook.com" className="facebook social">
+        <a
+          href="https://www.facebook.com/wisetrailrunning"
+          className="facebook social"
+        >
           <FontAwesomeIcon icon={faFacebook} size="2x" />
         </a>
         <a href="https://www.twitter.com" className="twitter social">
           <FontAwesomeIcon icon={faTwitter} size="2x" />
         </a>
-        <a href="https://www.instagram.com" className="instagram social">
+        <a
+          href="https://www.instagram.com/wisetrailrunning/"
+          className="instagram social"
+        >
           <FontAwesomeIcon icon={faInstagram} size="2x" />
         </a>
       </div>

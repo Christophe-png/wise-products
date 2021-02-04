@@ -27,5 +27,5 @@ a {
 }
 
 .navbar li {
-  text-shadow: 30px 15px 50px rgb(40, 157, 235);
+  box-shadow: 60px 40px 80px rgb(40, 157, 235);
 }

@@ -35,11 +35,30 @@
   display: block;
   margin: 0 auto;
   width: 800px;
-  height: 350px;
+  height: 500px;
 }
 
 h1 {
   margin: 0;
   padding: 20px 0;
   color: #090a69;
+}
+
+.manifeste iframe {
+  width: 70%;
+  height: 315px;
+}
+
+.manifeste p {
+  font-size: 2em;
+  line-height: 2em;
+}
+
+.recit-histoire {
+  padding: 3em;
+}
+
+.savoir-faire p {
+  font-size: 2em;
+  line-height: 2em;
 }

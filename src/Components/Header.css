@@ -11,6 +11,7 @@
   width: 60%;
   height: 60%;
   justify-content: center;
+  box-shadow: 30px 15px 50px rgb(40, 157, 235);
 }
 
 li {
@@ -23,4 +24,8 @@ li {
 
 a {
   text-decoration: none;
+}
+
+.navbar li {
+  text-shadow: 30px 15px 50px rgb(40, 157, 235);
 }
